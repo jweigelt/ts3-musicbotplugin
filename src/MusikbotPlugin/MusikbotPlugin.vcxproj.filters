@@ -1,0 +1,211 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\Audio">
+      <UniqueIdentifier>{69527322-3908-4f2c-8182-0a35895712e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\RemoteControl">
+      <UniqueIdentifier>{1c0f396f-2f06-4832-a9d3-19f27e93e821}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Config">
+      <UniqueIdentifier>{85e87f7f-d69a-4420-a509-708a018e5a36}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Ts3">
+      <UniqueIdentifier>{05d7bd94-1e65-47b4-a66e-399b40777c01}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Utility">
+      <UniqueIdentifier>{fe623e43-ab35-40b8-bd17-cd95db556430}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\Youtube">
+      <UniqueIdentifier>{ef4da502-ee8e-44be-bce8-c64b937f2f06}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Audio">
+      <UniqueIdentifier>{0f78319d-5834-4972-849d-122b4e6ef195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Config">
+      <UniqueIdentifier>{1c42f00b-912d-4e41-a17e-2be3987a73ff}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Youtube">
+      <UniqueIdentifier>{606f72e6-f814-4777-b3c7-3380a99774dd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Utility">
+      <UniqueIdentifier>{cdabe178-1ceb-4608-9368-802b2c8abd7e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\Ts3">
+      <UniqueIdentifier>{80e6476f-e8c1-4fe1-9d1d-5aa8f6333c74}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\RemoteControl">
+      <UniqueIdentifier>{be0b95f1-6524-49fd-80a1-1dcf804bfe63}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="MusicBot.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="targetver.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="AudioException.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteCommandDispatcher.h">
+      <Filter>Header Files\RemoteControl</Filter>
+    </ClInclude>
+    <ClInclude Include="RemoteCommand.h">
+      <Filter>Header Files\RemoteControl</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdPing.h">
+      <Filter>Header Files\RemoteControl</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdStop.h">
+      <Filter>Header Files\RemoteControl</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdPlayYouTube.h">
+      <Filter>Header Files\RemoteControl</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdSeek.h">
+      <Filter>Header Files\RemoteControl</Filter>
+    </ClInclude>
+    <ClInclude Include="BufferedAudioReader.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigReader.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="ConfigException.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="DebugHelper.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="FiFoBuffer.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="FFMpeg.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="HtmlElement.h">
+      <Filter>Header Files\Youtube</Filter>
+    </ClInclude>
+    <ClInclude Include="Logger.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="plugin_api.h">
+      <Filter>Header Files\Ts3</Filter>
+    </ClInclude>
+    <ClInclude Include="RealtimePlayback.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Ts3User.h">
+      <Filter>Header Files\RemoteControl</Filter>
+    </ClInclude>
+    <ClInclude Include="Utility.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="YoutubeGrabber.h">
+      <Filter>Header Files\Youtube</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdPlayRadio.h">
+      <Filter>Header Files\RemoteControl</Filter>
+    </ClInclude>
+    <ClInclude Include="MediaTimer.h">
+      <Filter>Header Files\Audio</Filter>
+    </ClInclude>
+    <ClInclude Include="Definitions.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="NameAnimationProvider.h">
+      <Filter>Header Files\Utility</Filter>
+    </ClInclude>
+    <ClInclude Include="MainConfiguration.h">
+      <Filter>Header Files\Config</Filter>
+    </ClInclude>
+    <ClInclude Include="CmdSetVolume.h">
+      <Filter>Header Files\RemoteControl</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="AudioException.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="BufferedAudioReader.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="FiFoBuffer.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdPing.cpp">
+      <Filter>Source Files\RemoteControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdPlayYouTube.cpp">
+      <Filter>Source Files\RemoteControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdSeek.cpp">
+      <Filter>Source Files\RemoteControl</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdStop.cpp">
+      <Filter>Source Files\RemoteControl</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigException.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="ConfigReader.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="HtmlElement.cpp">
+      <Filter>Source Files\Youtube</Filter>
+    </ClCompile>
+    <ClCompile Include="Logger.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="plugin_api.cpp">
+      <Filter>Source Files\Ts3</Filter>
+    </ClCompile>
+    <ClCompile Include="RealtimePlayback.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteCommand.cpp">
+      <Filter>Source Files\RemoteControl</Filter>
+    </ClCompile>
+    <ClCompile Include="RemoteCommandDispatcher.cpp">
+      <Filter>Source Files\RemoteControl</Filter>
+    </ClCompile>
+    <ClCompile Include="Ts3User.cpp">
+      <Filter>Source Files\RemoteControl</Filter>
+    </ClCompile>
+    <ClCompile Include="YoutubeGrabber.cpp">
+      <Filter>Source Files\Youtube</Filter>
+    </ClCompile>
+    <ClCompile Include="Utility.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdPlayRadio.cpp">
+      <Filter>Source Files\RemoteControl</Filter>
+    </ClCompile>
+    <ClCompile Include="MediaTimer.cpp">
+      <Filter>Source Files\Audio</Filter>
+    </ClCompile>
+    <ClCompile Include="NameAnimationProvider.cpp">
+      <Filter>Source Files\Utility</Filter>
+    </ClCompile>
+    <ClCompile Include="MainConfiguration.cpp">
+      <Filter>Source Files\Config</Filter>
+    </ClCompile>
+    <ClCompile Include="CmdSetVolume.cpp">
+      <Filter>Source Files\RemoteControl</Filter>
+    </ClCompile>
+    <ClCompile Include="MusicBot.cpp" />
+  </ItemGroup>
+</Project>

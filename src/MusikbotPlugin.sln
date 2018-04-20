@@ -1,0 +1,58 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25420.1
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MusikbotPlugin", "MusikbotPlugin\MusikbotPlugin.vcxproj", "{E0FBFE71-FC1A-482F-AD38-CED150D6B263}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MusikbotPluginDebugHost", "MusikbotPluginDebugHost\MusikbotPluginDebugHost.vcxproj", "{83E6C3BF-15C9-4272-9508-743CC380CE2C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		HostDebug|Any CPU = HostDebug|Any CPU
+		HostDebug|x64 = HostDebug|x64
+		HostDebug|x86 = HostDebug|x86
+		Release|Any CPU = Release|Any CPU
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E0FBFE71-FC1A-482F-AD38-CED150D6B263}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{E0FBFE71-FC1A-482F-AD38-CED150D6B263}.Debug|x64.ActiveCfg = Debug|x64
+		{E0FBFE71-FC1A-482F-AD38-CED150D6B263}.Debug|x64.Build.0 = Debug|x64
+		{E0FBFE71-FC1A-482F-AD38-CED150D6B263}.Debug|x86.ActiveCfg = Debug|Win32
+		{E0FBFE71-FC1A-482F-AD38-CED150D6B263}.Debug|x86.Build.0 = Debug|Win32
+		{E0FBFE71-FC1A-482F-AD38-CED150D6B263}.HostDebug|Any CPU.ActiveCfg = Release|Win32
+		{E0FBFE71-FC1A-482F-AD38-CED150D6B263}.HostDebug|Any CPU.Build.0 = Release|Win32
+		{E0FBFE71-FC1A-482F-AD38-CED150D6B263}.HostDebug|x64.ActiveCfg = Debug|x64
+		{E0FBFE71-FC1A-482F-AD38-CED150D6B263}.HostDebug|x64.Build.0 = Debug|x64
+		{E0FBFE71-FC1A-482F-AD38-CED150D6B263}.HostDebug|x86.ActiveCfg = Debug|Win32
+		{E0FBFE71-FC1A-482F-AD38-CED150D6B263}.HostDebug|x86.Build.0 = Debug|Win32
+		{E0FBFE71-FC1A-482F-AD38-CED150D6B263}.Release|Any CPU.ActiveCfg = Release|Win32
+		{E0FBFE71-FC1A-482F-AD38-CED150D6B263}.Release|x64.ActiveCfg = Release|x64
+		{E0FBFE71-FC1A-482F-AD38-CED150D6B263}.Release|x64.Build.0 = Release|x64
+		{E0FBFE71-FC1A-482F-AD38-CED150D6B263}.Release|x86.ActiveCfg = Release|Win32
+		{E0FBFE71-FC1A-482F-AD38-CED150D6B263}.Release|x86.Build.0 = Release|Win32
+		{83E6C3BF-15C9-4272-9508-743CC380CE2C}.Debug|Any CPU.ActiveCfg = Debug|Win32
+		{83E6C3BF-15C9-4272-9508-743CC380CE2C}.Debug|x64.ActiveCfg = Debug|x64
+		{83E6C3BF-15C9-4272-9508-743CC380CE2C}.Debug|x64.Build.0 = Debug|x64
+		{83E6C3BF-15C9-4272-9508-743CC380CE2C}.Debug|x86.ActiveCfg = Debug|Win32
+		{83E6C3BF-15C9-4272-9508-743CC380CE2C}.Debug|x86.Build.0 = Debug|Win32
+		{83E6C3BF-15C9-4272-9508-743CC380CE2C}.HostDebug|Any CPU.ActiveCfg = HostDebug|Win32
+		{83E6C3BF-15C9-4272-9508-743CC380CE2C}.HostDebug|x64.ActiveCfg = HostDebug|x64
+		{83E6C3BF-15C9-4272-9508-743CC380CE2C}.HostDebug|x64.Build.0 = HostDebug|x64
+		{83E6C3BF-15C9-4272-9508-743CC380CE2C}.HostDebug|x86.ActiveCfg = HostDebug|Win32
+		{83E6C3BF-15C9-4272-9508-743CC380CE2C}.HostDebug|x86.Build.0 = HostDebug|Win32
+		{83E6C3BF-15C9-4272-9508-743CC380CE2C}.Release|Any CPU.ActiveCfg = Release|Win32
+		{83E6C3BF-15C9-4272-9508-743CC380CE2C}.Release|x64.ActiveCfg = Release|x64
+		{83E6C3BF-15C9-4272-9508-743CC380CE2C}.Release|x64.Build.0 = Release|x64
+		{83E6C3BF-15C9-4272-9508-743CC380CE2C}.Release|x86.ActiveCfg = Release|Win32
+		{83E6C3BF-15C9-4272-9508-743CC380CE2C}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

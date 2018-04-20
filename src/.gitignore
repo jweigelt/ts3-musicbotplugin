@@ -1,0 +1,12 @@
+.vs
+dbg
+Debug
+Release
+ipch
+x64
+MusikbotPlugin\Debug
+MusikbotPlugin\Release
+MusikbotPlugin\x64
+MusikbotPluginDebugHost\Debug
+MusikbotPluginDebugHost\plugins
+*.TMP
